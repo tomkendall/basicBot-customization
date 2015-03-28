@@ -53,7 +53,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "RedMusicBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
@@ -87,9 +87,9 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: True,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "You typed !motd. What did you expect it to do?",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
